@@ -1,10 +1,10 @@
 # Meta Ads MCP Server
 
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.adkit%2Fmeta-ads-7c3aed)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.adkit/meta-ads) [![Setup guide](https://img.shields.io/badge/setup_guide-adkit.so-7c3aed)](https://adkit.so/features/ads-mcp/meta) [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](./LICENSE)
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.adkit%2Fmeta--ads-7c3aed)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.adkit/meta-ads) [![Setup guide](https://img.shields.io/badge/setup_guide-adkit.so-7c3aed)](https://adkit.so/features/ads-mcp/meta) [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](./LICENSE)
 
 Connect Meta Ads (Facebook and Instagram) to Claude, ChatGPT, Cursor, Codex or any AI app that supports MCP. AdKit hosts the server, so you only add an address to your AI app.
 
-- **MCP address:** `https://mcp.adkit.so/api/mcp/meta-ads`
+- **MCP address:** `https://mcp.adkit.so/meta-ads`
 - **Website:** [Meta Ads MCP by AdKit](https://adkit.so/features/ads-mcp/meta)
 
 Every change is saved as a draft first, so your AI can't spend money on its own. Nothing goes live on Meta Ads until you approve it.
@@ -37,12 +37,12 @@ There are two ways to connect:
 ### Claude (web and desktop)
 
 - **All platforms:** [install AdKit from the Claude directory](https://claude.ai/directory/adkit), in one click.
-- **Meta Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/api/mcp/meta-ads`.
+- **Meta Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/meta-ads`.
 
 ### ChatGPT
 
 - **All platforms:** [add the AdKit app](https://chatgpt.com/apps/adkit/asdk_app_6a1e848decdc8191a4974b315c51661f), in one click.
-- **Meta Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/api/mcp/meta-ads`.
+- **Meta Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/meta-ads`.
 
 ### Claude Code
 
@@ -56,7 +56,7 @@ As a plugin:
 Or as an MCP server only:
 
 ```
-claude mcp add --transport http adkit-meta-ads https://mcp.adkit.so/api/mcp/meta-ads
+claude mcp add --transport http adkit-meta-ads https://mcp.adkit.so/meta-ads
 ```
 
 ### Gemini CLI
@@ -73,7 +73,7 @@ Add to `~/.cursor/mcp.json`:
 {
   "mcpServers": {
     "adkit-meta-ads": {
-      "url": "https://mcp.adkit.so/api/mcp/meta-ads"
+      "url": "https://mcp.adkit.so/meta-ads"
     }
   }
 }
@@ -85,7 +85,7 @@ Add to `~/.codex/config.toml`:
 
 ```toml
 [mcp_servers.adkit-meta-ads]
-url = "https://mcp.adkit.so/api/mcp/meta-ads"
+url = "https://mcp.adkit.so/meta-ads"
 ```
 
 In Claude Code, Gemini CLI, Cursor and Codex, use `https://mcp.adkit.so` instead to connect all platforms.

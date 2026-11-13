@@ -3,7 +3,7 @@
   "name": "io.github.adkit/meta-ads",
   "title": "Meta Ads MCP Server by AdKit",
   "description": "Meta Ads MCP server: run Facebook and Instagram campaigns, ad sets, ads and reports from AI.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://adkit.so/features/ads-mcp/meta",
   "repository": {
     "url": "https://github.com/adkit/meta-ads-mcp",
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.adkit.so/api/mcp/meta-ads"
+      "url": "https://mcp.adkit.so/meta-ads"
     }
   ]
 }

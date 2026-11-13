@@ -2,7 +2,7 @@
   "mcpServers": {
     "adkit-meta-ads": {
       "type": "http",
-      "url": "https://mcp.adkit.so/api/mcp/meta-ads"
+      "url": "https://mcp.adkit.so/meta-ads"
     }
   }
 }
