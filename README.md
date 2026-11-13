@@ -5,7 +5,7 @@
 Connect Meta Ads (Facebook and Instagram) to Claude, ChatGPT, Cursor, Codex or any AI app that supports MCP. AdKit hosts the server, so you only add an address to your AI app.
 
 - **MCP address:** `https://mcp.adkit.so/meta-ads`
-- **Website:** [Meta Ads MCP by AdKit](https://adkit.so/features/ads-mcp/meta)
+- **Website:** [AdKit](https://adkit.so/features/ads-mcp/meta)
 
 Every change is saved as a draft first, so your AI can't spend money on its own. Nothing goes live on Meta Ads until you approve it.
 
