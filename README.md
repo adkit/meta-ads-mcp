@@ -163,6 +163,10 @@ Claude, ChatGPT, Claude Code, Gemini CLI, Cursor, Codex and any app that support
 - Help: [adkit.so/support](https://adkit.so/support) or contact@adkit.so
 - [Privacy](./PRIVACY.md), [Terms](./TERMS.md), [Security](./SECURITY.md), [Support](./SUPPORT.md)
 
+## Docs server
+
+[`docs-server/`](./docs-server/index.mjs) is a small local MCP server that answers questions about AdKit from this README: setup per AI app, hosted tools, ad platforms, example prompts and the FAQ. It needs no login and does not manage ads; for that, connect the hosted server above. Run it with `npm start` or the Dockerfile.
+
 ## License
 
 MIT
