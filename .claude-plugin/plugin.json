@@ -1,0 +1,22 @@
+{
+  "name": "meta-ads",
+  "description": "Meta Ads MCP server by AdKit: Facebook and Instagram campaigns, ad sets, ads, creatives and reports. Every change is saved as a draft until you approve it.",
+  "author": {
+    "name": "AdKit",
+    "email": "contact@adkit.so"
+  },
+  "homepage": "https://adkit.so/features/ads-mcp/meta",
+  "repository": "https://github.com/adkit/meta-ads-mcp",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "meta ads mcp",
+    "meta ads",
+    "mcp",
+    "model context protocol",
+    "ads mcp",
+    "advertising",
+    "ad campaigns"
+  ],
+  "mcpServers": "./.mcp.json"
+}

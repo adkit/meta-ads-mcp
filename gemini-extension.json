@@ -1,0 +1,11 @@
+{
+  "name": "adkit-meta-ads",
+  "version": "1.0.0",
+  "description": "Meta Ads MCP server by AdKit: Facebook and Instagram campaigns, ad sets, ads, creatives and reports. Every change is saved as a draft until you approve it.",
+  "mcpServers": {
+    "adkit-meta-ads": {
+      "httpUrl": "https://mcp.adkit.so/api/mcp/meta-ads",
+      "description": "Hosted AdKit Meta Ads MCP server. Signs in with OAuth in the browser on first use; nothing to install."
+    }
+  }
+}

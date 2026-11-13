@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "adkit-meta-ads": {
+      "type": "streamable-http",
+      "url": "https://mcp.adkit.so/api/mcp/meta-ads"
+    }
+  }
+}
